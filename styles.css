@@ -1,0 +1,58 @@
+:root {
+  --primary: #13669c;
+  --secondary: #5490b7;
+  --background: #f6f6f6;
+  --foreground: #404040;
+  --spacing: 1rem;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Helvetica, sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  max-width: 768px;
+  margin: var(--spacing) auto;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: var(--spacing);
+}
+
+#name {
+  margin-right: auto;
+  color: var(--primary);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.bi {
+  font-size: 3rem;
+  margin-left: var(--spacing);
+}
+
+.heading-2 {
+  display: inline-block;
+  color: var(--secondary);
+  text-decoration: underline;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.heading-4 {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
