@@ -1,8 +1,9 @@
 :root {
   --primary: #13669c;
   --secondary: #5490b7;
-  --background: #f6f6f6;
+  --background: white;
   --foreground: #404040;
+  --placeholder: #808080;
   --spacing: 1rem;
 }
 
@@ -16,19 +17,18 @@ body {
   font-family: Helvetica, sans-serif;
   background-color: var(--background);
   color: var(--foreground);
-  max-width: 768px;
+  max-width: 896px;
+  min-height: 100vh;
   margin: var(--spacing) auto;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 a:hover {
   text-decoration: none;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin-bottom: var(--spacing);
 }
 
 #name {
@@ -46,13 +46,83 @@ nav {
 .heading-2 {
   display: inline-block;
   color: var(--secondary);
-  text-decoration: underline;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
+  margin-bottom: var(--spacing);
+  border-bottom: 4px solid var(--secondary);
 }
 
 .heading-4 {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: bold;
+  color: var(--placeholder);
+  margin-bottom: var(--spacing);
+}
+
+.my-card {
+  width: 12rem;
+}
+
+img.project {
+  width: 100%;
+  height: auto;
+}
+
+img.thumbnail {
+  display: block;
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid var(--foreground);
+  margin-bottom: var(--spacing);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: var(--spacing);
+}
+
+#social-medias {
+  font-size: 2rem;
+}
+
+.placeholder-text {
+  color: var(--placeholder);
+  font-size: 0.85rem;
+}
+
+.my-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing);
+}
+
+.skills {
+  font-size: 4rem;
+  margin-right: var(--spacing);
+}
+
+.skills-img {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  margin-right: var(--spacing);
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+  body {
+    max-width: 288px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    max-width: 576px;
+  }
 }
