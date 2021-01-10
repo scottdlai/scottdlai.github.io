@@ -14,13 +14,12 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--background);
   color: var(--foreground);
   max-width: 896px;
   min-height: 100vh;
   margin: var(--spacing) auto;
-  font-weight: 500;
 }
 
 * {
