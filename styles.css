@@ -70,7 +70,6 @@ img.project {
 }
 
 img.thumbnail {
-  display: block;
   width: 8rem;
   height: 8rem;
   border: 1px solid var(--foreground);
