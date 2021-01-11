@@ -102,6 +102,14 @@ nav {
   margin-right: var(--spacing);
 }
 
+footer {
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--spacing);
+}
+
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   body {
     max-width: 288px;
