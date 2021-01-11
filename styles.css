@@ -111,21 +111,21 @@ nav {
   margin-right: var(--spacing);
 }
 
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 575px) {
   body {
     max-width: 288px;
   }
 
   #name {
-    font-size: 2rem;
+    font-size: 1.85rem;
   }
 
   .heading-2 {
-    font-size: 1.65rem;
+    font-size: 1.45rem;
   }
 
   .heading-4 {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
 
   .skills {
