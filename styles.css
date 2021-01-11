@@ -5,6 +5,7 @@
   --foreground: #404040;
   --placeholder: #808080;
   --spacing: 1rem;
+  --icon-size: 4rem;
 }
 
 html {
@@ -70,9 +71,8 @@ img.project {
 
 img.thumbnail {
   display: inline-block;
-  width: 8rem;
-  height: 8rem;
-  border: 1px solid var(--foreground);
+  width: var(--icon-size);
+  height: var(--icon-size);
   margin-bottom: var(--spacing);
 }
 
@@ -100,14 +100,14 @@ nav {
 }
 
 .skills {
-  font-size: 4rem;
+  font-size: var(--icon-size);
   margin-right: var(--spacing);
 }
 
 .skills-img {
-  display: block;
-  height: 4rem;
-  width: 4rem;
+  display: inline-block;
+  height: var(--icon-size);
+  width: var(--icon-size);
   margin-right: var(--spacing);
 }
 
