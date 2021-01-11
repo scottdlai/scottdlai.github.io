@@ -18,7 +18,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--background);
   color: var(--foreground);
-  max-width: 896px;
+  max-width: 768px;
   min-height: 100vh;
   margin: var(--spacing) auto;
 }
