@@ -102,6 +102,9 @@ nav {
   margin-right: var(--spacing);
 }
 
+.project-container {
+  text-align: center;
+}
 footer {
   height: 64px;
   display: flex;
