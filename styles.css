@@ -87,19 +87,22 @@ nav {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.my-container > * {
   margin-bottom: var(--spacing);
+  margin-right: var(--spacing);
 }
 
 .skills {
   font-size: var(--icon-size);
-  margin-right: var(--spacing);
 }
 
 .skills-img {
   display: inline-block;
   height: var(--icon-size);
   width: var(--icon-size);
-  margin-right: var(--spacing);
+  /* margin-right: var(--spacing); */
 }
 
 .project-container {
