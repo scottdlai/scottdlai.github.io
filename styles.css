@@ -32,7 +32,6 @@ a:hover {
 }
 
 #name {
-  margin-right: auto;
   color: var(--primary);
   font-weight: bold;
   font-size: 3rem;
@@ -70,12 +69,13 @@ img.thumbnail {
 nav {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-bottom: var(--spacing);
 }
 
 #social-medias {
   font-size: 2rem;
+  margin-left: auto;
 }
 
 .placeholder-text {
