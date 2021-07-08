@@ -20,7 +20,7 @@ body {
   color: var(--foreground);
   max-width: 768px;
   min-height: 100vh;
-  margin: var(--spacing) auto;
+  margin: calc(var(--spacing) * 2) auto;
 }
 
 * {
