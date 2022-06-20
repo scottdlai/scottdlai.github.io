@@ -6,6 +6,7 @@
   --placeholder: #808080;
   --spacing: 1rem;
   --icon-size: 4rem;
+  --company-size: calc(var(--icon-size) * 3);
 }
 
 html {
@@ -109,8 +110,31 @@ nav {
   /* margin-right: var(--spacing); */
 }
 
+.companies {
+  font-size: var(--company-size);
+}
+
+.companies-img {
+  display: inline-block;
+  /* height: var(--company-size);
+  width: var(--company-size); */
+  /* margin-right: var(--spacing); */
+}
+
+.gratify-logo {
+  width: var(--company-size);
+}
+
 .project-container {
   text-align: center;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+div.flex-gap-10px {
+  gap: 10px;
 }
 
 footer {
@@ -122,6 +146,10 @@ footer {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 575px) {
+  :root {
+    --company-size: calc(var(--icon-size) * 1.45);
+  }
+
   body {
     max-width: 288px;
   }
