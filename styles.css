@@ -6,7 +6,7 @@
   --placeholder: #808080;
   --spacing: 1rem;
   --icon-size: 4rem;
-  --company-size: calc(var(--icon-size) * 3);
+  --company-size: calc(var(--icon-size) * 2.5);
 }
 
 html {
@@ -133,8 +133,8 @@ nav {
   align-self: center;
 }
 
-div.flex-gap-10px {
-  gap: 10px;
+div.companies-spacer {
+  gap: var(--icon-size);
 }
 
 footer {
@@ -173,6 +173,10 @@ footer {
   .skills-img {
     width: 3rem;
     height: 3rem;
+  }
+
+  div.companies-spacer {
+    gap: calc(var(--icon-size) / 2);
   }
 }
 
