@@ -66,7 +66,8 @@ img.project {
 
 img.thumbnail {
   display: inline-block;
-  width: var(--icon-size);
+  /* Keep aspect ratio */
+  width: auto;
   height: var(--icon-size);
   margin-bottom: var(--spacing);
 }
