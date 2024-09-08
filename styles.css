@@ -89,13 +89,19 @@ nav {
   font-size: 0.85rem;
 }
 
-.my-container {
+.logo-container {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
-.my-container > * {
+.icon-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.icon-container > * {
   margin-bottom: var(--spacing);
   margin-right: var(--spacing);
 }
@@ -190,5 +196,11 @@ footer {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   body {
     max-width: 576px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .education-placeholder {
+    display: none;
   }
 }
